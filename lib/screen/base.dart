@@ -1,4 +1,5 @@
 import 'package:bunyo/screen/first_page.dart';
+import 'package:bunyo/screen/posts_page/view/posts_page.dart';
 import 'package:bunyo/screen/second_page.dart';
 import 'package:bunyo/screen/third_page.dart';
 import 'package:flutter/material.dart';
@@ -16,6 +17,8 @@ class BottomBarState extends State<BottomBar> {
     const FirstPage(),
     const SecondPage(),
     const ThirdPage(),
+    const PostsPage(),
+
   ];
   @override
   Widget build(BuildContext context) {
@@ -40,6 +43,8 @@ class BottomBarState extends State<BottomBar> {
           ),
           BottomNavigationBarItem(icon: Icon(Icons.looks_two), label: 'İkinci'),
           BottomNavigationBarItem(icon: Icon(Icons.looks_3), label: 'Üçüncü'),
+          BottomNavigationBarItem(icon: Icon(Icons.bookmark), label: 'PostsPage'),
+
         ],
       ),
     );
