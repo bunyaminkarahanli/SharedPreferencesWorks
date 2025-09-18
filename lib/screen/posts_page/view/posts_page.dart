@@ -1,6 +1,6 @@
-import 'package:bunyo/screen/post_detail/view/post_detail.dart';
+import 'package:bunyo/screen/post_detail/view/post_detail_page.dart';
 import 'package:bunyo/screen/posts_page/models/comments_model.dart';
-import 'package:bunyo/screen/posts_page/services/api_service.dart';
+import 'package:bunyo/screen/posts_page/services/posts_detail_service.dart';
 import 'package:flutter/material.dart';
 
 class PostsPage extends StatefulWidget {
